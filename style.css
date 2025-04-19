@@ -1,0 +1,101 @@
+/* Background Robotik */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #111 url('https://www.transparenttextures.com/patterns/robot-texture.png') repeat;
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #00FF00;
+  text-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00, 0 0 30px #00FF00;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #0ff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #00FF00;
+  padding-bottom: 10px;
+}
+
+.provider {
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 18px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.item {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 1.3em;
+  color: #00FF00;
+  font-weight: bold;
+}
+
+/* Styling untuk Kontak WhatsApp */
+.contact {
+  margin-top: 30px;
+  color: white;
+  font-size: 1.2em;
+}
+
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #25d366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.4em;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #128c7e;
+}
+
+.whatsapp-button i {
+  margin-right: 10px;
+}
